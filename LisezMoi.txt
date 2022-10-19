@@ -1,0 +1,21 @@
+====================
+NGUYEN Chu Hoang Anh
+Sami MANSOUR
+Groupe INM3
+====================
+
+- Tous les fonctions neccessaires sont dans le fichier client-rendu.c
+    =>  Alors on ne doit pas remettre les fonctions dans les       
+        nouveaux fichiers des autres exercices.
+
+- De plus, pour la fonction BayOfPigs_2, c'est pour ameliorer la vitesse 
+  d'execution du challenge "OneMillion". En outre, on a remplace tout 
+  BayOfPigs par BayOfPigs_2, mais on vous laisse quand meme la premiere 
+  version(version originale).
+
+- Dans le code c'est compte de NGUYEN, parce que malheuresement le compte 
+  de Sami n'est pas encore asctive.
+
+Merci beaucoup!  
+
+
