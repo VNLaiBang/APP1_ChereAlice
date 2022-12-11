@@ -1,7 +1,7 @@
 CC=clang
-CFLAGS=-g -Wall -Wextra -Werror
+CFLAGS=-g -Wall -Wextra -Werror -gdwarf-2
 
-EXEC=client-introduction client-interactif client-leGateau client-projectX client-BayOfPigs client-crypteMove client-crypteSeq client-Northwoods client-OneMillion client-LostCause client-planB
+EXEC=client-introduction client-interactif client-leGateau client-projectX client-BayOfPigs client-crypteMove client-crypteSeq client-Northwoods client-OneMillion client-LostCause client-planB client-hero
 
 all: $(EXEC)
 
@@ -30,6 +30,8 @@ client-LostCause: client-LostCause.o client.o client_rendu.o
 client.o: client.c client.h
 
 client_rendu.o: client_rendu.c client_rendu.h 
+
+client-hero: client-hero.o client.o
 
 clean:
 	rm -f *.o
